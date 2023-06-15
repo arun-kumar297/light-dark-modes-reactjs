@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.dark-continer {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #000000;
+  padding: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+}
+.light-card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+  border: 2px solid #000000;
+}
+.dark-heading {
+  color: #ffffff;
+}
+.light-heading {
+  color: #000000;
+}
+.dark-button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  width: 130px;
+  border-radius: 8px;
+  border-width: 0;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.light-button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  width: 130px;
+  border-radius: 8px;
+  border-width: 0;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: 2px solid #000000;
+}
